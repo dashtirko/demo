@@ -1,35 +1,24 @@
 {
-  "Post": {
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
-    },
-    "title": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
-      }
-    },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "tag": {
-      "string": [
-        "one",
-        "two",
-        "three"
-      ]
-    },
-    "isDraft": {
-      "boolean": {}
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    }
-  }
-}
+"userId": 1,
+"id": 1,
+"title": "delectus aut autem",
+"completed": false
+},
+{
+"userId": 1,
+"id": 2,
+"title": "quis ut nam facilis et officia qui",
+"completed": false
+},
+{
+"userId": 1,
+"id": 3,
+"title": "fugiat veniam minus",
+"completed": false
+},
+{
+"userId": 1,
+"id": 4,
+"title": "et porro tempora",
+"completed": true
+},
